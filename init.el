@@ -49,7 +49,7 @@ values."
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
-     spell-checking
+     ;;spell-checking
      syntax-checking
      ;; version-control
      )
@@ -319,6 +319,19 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  ;;================for c++=====================================================
+  ;;(setq-default dotspacemacs-configuration-layers
+  ;;              '((c-c++ :variables
+  ;;                       c-c++-default-mode-for-headers 'c++-mode)));;Default C++ mode for header files
+  ;;(setq-default dotspacemacs-configuration-layers
+  ;;              '((c-c++ :variables c-c++-enable-clang-support t)));;Enable Clang support
+  ;; Bind clang-format-region to C-M-tab in all modes:
+  (global-set-key [C-M-tab] 'clang-format-region)
+  ;; Bind clang-format-buffer to tab on the c++-mode only:
+  (add-hook 'c++-mode-hook 'clang-format-bindings)
+  (defun clang-format-bindings ()
+    (define-key c++-mode-map [tab] 'clang-format-buffer))
+  ;;=============================================================================
   (setcdr evil-insert-state-map nil)
   (define-key evil-insert-state-map [escape] 'evil-normal-state)
   (setq ns-use-srgb-colorspace nil)

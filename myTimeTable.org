@@ -1,16 +1,21 @@
 * Daily
 ** DONE Having foods
-   CLOSED: [2018-08-11 Sat 14:41]
+   CLOSED: [2018-08-12 Sun 12:04]
 ** DONE Gym session
-   CLOSED: [2018-08-11 Sat 14:41]
-** DONE Drink 3L water
-   CLOSED: [2018-08-11 Sat 14:48]
+   CLOSED: [2018-08-12 Sun 12:04]
+** TODO Drink 3L water
 ** TODO &Arrangement
 ** TODO Setup the TimeTable for the next day
    SCHEDULED: <2018-08-11 Sat 20:00>
 * Learning Schedule
-** TODO C++
+** DONE C++
+   CLOSED: [2018-08-12 Sun 11:38] SCHEDULED: <2018-08-12 Sun 12:00>
+   :LOGBOOK:
+   CLOCK: [2018-08-12 Sun 09:45]--[2018-08-12 Sun 10:10] =>  0:25
+   CLOCK: [2018-08-12 Sun 09:11]--[2018-08-12 Sun 09:36] =>  0:25
+   :END:
 ** TODO Emacs/Spacemacs
+   SCHEDULED: <2018-08-12 Sun 14:00>
 *** DONE Org/Agenda Configuration
     CLOSED: [2018-08-11 Sat 15:11] SCHEDULED: <2018-08-11 Sat 14:30>
     :LOGBOOK:
@@ -21,15 +26,13 @@
 *** DONE Learn org "TODO" keybinding
     CLOSED: [2018-08-11 Sat 16:15] SCHEDULED: <2018-08-11 Sat 16:00>
 ** TODO Uyghur
-   SCHEDULED: <2018-08-11 Sat 19:00>
-** DONE Git
-   CLOSED: [2018-08-11 Sat 18:52] SCHEDULED: <2018-08-11 Sat 18:00>
-** TODO C/C++
-** DONE Read<<Designing Audio Effector in C++>>
-   CLOSED: [2018-08-11 Sat 18:52] SCHEDULED: <2018-08-11 Sat 17:00>
-** DONE Spacemacs w/ PDF&Kindle books
-   CLOSED: [2018-08-11 Sat 18:52] SCHEDULED: <2018-08-11 Sat 16:00>
-   :LOGBOOK:
-   CLOCK: [2018-08-11 Sat 16:38]--[2018-08-11 Sat 17:03] =>  0:25
-   :END:
+   SCHEDULED: <2018-08-11 Sat 20:00>
+** TODO Git
+   SCHEDULED: <2018-08-12 Sun 15:00>
+** TODO Read<<Designing Audio Effector in C++>>
+   SCHEDULED: <2018-08-12 Sun 16:00>
+** TODO Know about C#
+   SCHEDULED: <2018-08-12 Sun 17:00>
+** TODO Know about Pyhton
+   SCHEDULED: <2018-08-12 Sun 13:00>
 * Academic Plan
