@@ -1,0 +1,34 @@
+Learning Git!
+* 在Github上创建新的仓库
+* 创建本地仓库
+** 本地库初始化
+*** 进入创建的目录： mkdir gitDev
+*** 初始化所在目录： git init（完成后会添加一个.git的隐藏文件）
+** 设置签名/权限
+*** 设置仓库级别（仅在本地库有效）
+    git config user.name xxxx
+    git config user.email xxxx
+*** 设置系统用户级别（对当前登录操作系统用户的范围）
+    git config --global user.name xxxx
+    git config --global user.email xxxx
+    就近原则：项目级别优先于系统用户级别，二者都有时采用项目级别的签名
+** 缓存区操作
+*** 查看状态操作： git status
+   查看工作区、暂存区状态
+*** 添加至缓存区： git add
+*** 从缓存区删除： git rm
+*** 提交：git commit
+* 查看历史记录
+*** 查看提交记录
+    1.git log:
+    2.git log --pretty=oneline
+    3.git reflog
+*** 版本前进和后退
+    git reset --hard [局部索引值] 
+* 分支管理
+** 创建分支：git branch [分支名]
+** 切换分支：git checkout [分支名]
+** 查看分支：git branch -v 
+** 合并分支：git merge [ 有新内容分支名 ]
+   第一步：切换到接受修改的分支（被合并，增加新内容）上 gitcheckout [被合并分支名]
+   第二步：执行 merge 命令 git merge [有新内容分支名]

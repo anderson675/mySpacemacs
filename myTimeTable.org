@@ -14,8 +14,8 @@
    CLOCK: [2018-08-12 Sun 09:45]--[2018-08-12 Sun 10:10] =>  0:25
    CLOCK: [2018-08-12 Sun 09:11]--[2018-08-12 Sun 09:36] =>  0:25
    :END:
-** TODO Emacs/Spacemacs
-   SCHEDULED: <2018-08-12 Sun 14:00>
+** DONE Emacs/Spacemacs
+   CLOSED: [2018-08-12 Sun 14:12] SCHEDULED: <2018-08-12 Sun 14:00>
 *** DONE Org/Agenda Configuration
     CLOSED: [2018-08-11 Sat 15:11] SCHEDULED: <2018-08-11 Sat 14:30>
     :LOGBOOK:
