@@ -1,38 +1,30 @@
 * Daily
-** DONE Having foods
-   CLOSED: [2018-08-12 Sun 12:04]
-** DONE Gym session
-   CLOSED: [2018-08-12 Sun 12:04]
+** TODO Having foods
+** TODO Gym session
+   SCHEDULED: <2018-08-13 Mon 10:00>
 ** TODO Drink 3L water
-** TODO &Arrangement
-** TODO Setup the TimeTable for the next day
-   SCHEDULED: <2018-08-11 Sat 20:00>
+** TODO &Arrangement 
+** DONE Setup the TimeTable for the next day
+   CLOSED: [2018-08-12 Sun 20:51] SCHEDULED: <2018-08-11 Sat 20:00>
 * Learning Schedule
-** DONE C++
-   CLOSED: [2018-08-12 Sun 11:38] SCHEDULED: <2018-08-12 Sun 12:00>
+** TODO C++
+   SCHEDULED: <2018-08-13 Mon 08:30>
    :LOGBOOK:
    CLOCK: [2018-08-12 Sun 09:45]--[2018-08-12 Sun 10:10] =>  0:25
    CLOCK: [2018-08-12 Sun 09:11]--[2018-08-12 Sun 09:36] =>  0:25
    :END:
-** DONE Emacs/Spacemacs
-   CLOSED: [2018-08-12 Sun 14:12] SCHEDULED: <2018-08-12 Sun 14:00>
-*** DONE Org/Agenda Configuration
-    CLOSED: [2018-08-11 Sat 15:11] SCHEDULED: <2018-08-11 Sat 14:30>
-    :LOGBOOK:
-    CLOCK: [2018-08-11 Sat 14:38]--[2018-08-11 Sat 15:03] =>  0:25
-    :END:
-*** DONE YouDao Dictionary Configuration
-    CLOSED: [2018-08-11 Sat 15:29] SCHEDULED: <2018-08-11 Sat 15:00>
-*** DONE Learn org "TODO" keybinding
-    CLOSED: [2018-08-11 Sat 16:15] SCHEDULED: <2018-08-11 Sat 16:00>
-** TODO Uyghur
-   SCHEDULED: <2018-08-11 Sat 20:00>
+** TODO Emacs/Spacemacs
+   如何在spacemacs中插入图片
+   C++ layer 完善
+   SCHEDULED: <2018-08-13 Mon 12:00>
+** DONE Uyghur
+   CLOSED: [2018-08-12 Sun 20:57] SCHEDULED: <2018-08-11 Sat 20:00>
 ** TODO Git
-   SCHEDULED: <2018-08-12 Sun 15:00>
+   SCHEDULED: <2018-08-13 Mon 14:00>
 ** TODO Read<<Designing Audio Effector in C++>>
-   SCHEDULED: <2018-08-12 Sun 16:00>
+   SCHEDULED: <2018-08-13 Mon 15:00>
 ** TODO Know about C#
-   SCHEDULED: <2018-08-12 Sun 17:00>
+   SCHEDULED: <2018-08-13 Mon 16:00>
 ** TODO Know about Pyhton
-   SCHEDULED: <2018-08-12 Sun 13:00>
+   SCHEDULED: <2018-08-13 Mon 18:00>
 * Academic Plan
