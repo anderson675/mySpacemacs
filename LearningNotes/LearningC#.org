@@ -1,0 +1,13 @@
+* Basic Method
+** Array::
+   .length()
+   copy(source,dest,elementsNum)
+   sort()
+   indexof()
+** String:
+   .length
+   substring(startPosition,elementsNum)
+   equals()
+   split(separator, StringSplitOptions.None);
+** List: 
+   

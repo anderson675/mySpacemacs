@@ -13,18 +13,19 @@
    CLOCK: [2018-08-12 Sun 09:45]--[2018-08-12 Sun 10:10] =>  0:25
    CLOCK: [2018-08-12 Sun 09:11]--[2018-08-12 Sun 09:36] =>  0:25
    :END:
-** TODO Emacs/Spacemacs
+** DONE Emacs/Spacemacs
+   CLOSED: [2018-08-13 Mon 14:28]
    如何在spacemacs中插入图片
    C++ layer 完善
    SCHEDULED: <2018-08-13 Mon 12:00>
 ** DONE Uyghur
    CLOSED: [2018-08-12 Sun 20:57] SCHEDULED: <2018-08-11 Sat 20:00>
-** TODO Git
-   SCHEDULED: <2018-08-13 Mon 14:00>
-** TODO Read<<Designing Audio Effector in C++>>
-   SCHEDULED: <2018-08-13 Mon 15:00>
-** TODO Know about C#
-   SCHEDULED: <2018-08-13 Mon 16:00>
-** TODO Know about Pyhton
-   SCHEDULED: <2018-08-13 Mon 18:00>
+** DONE Git
+   CLOSED: [2018-08-13 Mon 14:55] SCHEDULED: <2018-08-13 Mon 14:00>
+** DONE Read<<Designing Audio Effector in C++>>
+   CLOSED: [2018-08-13 Mon 16:18] SCHEDULED: <2018-08-13 Mon 15:00>
+** DONE Know about C#
+   CLOSED: [2018-08-13 Mon 17:31] SCHEDULED: <2018-08-13 Mon 16:00>
+** DONE Know about Pyhton
+   CLOSED: [2018-08-13 Mon 19:37] SCHEDULED: <2018-08-13 Mon 18:00>
 * Academic Plan

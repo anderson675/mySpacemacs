@@ -1,0 +1,25 @@
+* 安装git
+** Homebrew
+** 设置签名权限
+   $ git config --global user.name "Your Name"
+   $ git config --global user.email "email@example.com"
+   注意git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+* 本地库
+** 创建库
+   $ mkdir learngit
+   $ cd learngit
+   $ pwd   （用于显示在当前电脑上上的路径：/Users/michael/learngit）
+** 初始化本地库
+   git init（Initialized empty Git repository in /Users/michael/learngit/.git/）
+** 添加你的文件
+** 把文件添加到仓库
+   $git add:把文件修改添加到暂存区
+** 将文件提交到仓库
+   git commit -m “YOUR MESSAGE HERE"：把暂存区内内容提交到当前分支
+* 版本控制
+** 查看提交记录 
+   $git log
+** 回退到以前版本
+   $ git reset --hard HEAD^/HEAD^^/HEAD^^^
+** 显示每次命令及其commit id
+   $git reflog (可用来回到未来某个版本）
