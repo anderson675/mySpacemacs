@@ -23,3 +23,22 @@
    $ git reset --hard HEAD^/HEAD^^/HEAD^^^
 ** 显示每次命令及其commit id
    $git reflog (可用来回到未来某个版本）
+** 撤销修改
+   git checkout -- file（还未使用git add存入暂存区时）
+   git reset HEAD <file>(可以把暂存区的修改撤销掉）
+
+   场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。
+
+   场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD <file>，
+   就回到了场景1，第二步按场景1操作。
+** 删除文件
+   $ rm <file>，确认要删除后git commit到版本库
+   如果误删$ git checkout -- <file>可以恢复到上次提交的版本
+* 远程仓库
+** 从github网站上create new repository
+** $ git remote add origin git@github.com:<YOURUSERNAME/REPOSITORYNAME>
+   (origin=远程库）
+** 推送
+   $ git push -u origin master    （-u:第一次会把本地的master分支内容推送的远程新的master分支，
+                                    还会把本地的master分支和远程的master分支关联起来，在以后的
+                                    推送或者拉取时就可以简化命令。）
