@@ -42,3 +42,66 @@
    $ git push -u origin master    （-u:第一次会把本地的master分支内容推送的远程新的master分支，
                                     还会把本地的master分支和远程的master分支关联起来，在以后的
                                     推送或者拉取时就可以简化命令。）
+** 从远程仓库克隆
+   $ git clone git@github.com:<YOURUSERNAME/REPOSITORYNAME> //可用Http或SSH
+* 分支管理：使用HEAD指向不同的分支
+** 创建分支：
+   $ git checkout -b <BranchName> (-b 表示创建并切换，直接切换可不用）
+** 查看分支：
+   $ git branch
+** 提交后回到主分支上合并：
+   $ git merge <BranchName>
+** 删除分支：
+   $ git branch -d <BranchName>
+** 解决分支合并冲突
+   当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+   解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
+   用git log --graph命令可以看到分支合并图。
+** 分支的使用
+*** 修复Bug
+   在新建的分支上修复bug
+   查看合并记录：$：git stash list
+   恢复合并前：：$ git stash apply
+   删除Stash记录：：$ git stash drop（另一种方式是用git stash pop，恢复的同时把stash内容也删了）
+*** Features开发
+    新建一个feature分支，在上面开发，完成后，合并，最后，删除该feature分支。
+    销毁一个没有合并过的分支：：$ git branch -d feature-vulcan
+*** 多人开发
+    查看远程库的信息：$ git remote （加-v显示更详细的信息）
+    推送到分支： $ git push origin <分支名>
+    在Pull之前： $ git branch --set-upstream-to=origin/dev dev（原因是没有指定本地dev分支与远程origin/dev分支的链接，根据提示，设置dev和origin/dev的链接）
+    拉取：$ git pull 或者解决冲突再拉取
+     
+    所以整个多人开发流程可大致总结为：
+    1.首先，可以试图用git push origin <branch-name>推送自己的修改；
+    2.如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；
+    3.如果合并有冲突，则解决冲突，并在本地提交；
+    4.没有冲突或者解决掉冲突后，再用git push origin <branch-name>推送就能成功！
+    如果git pull提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，
+    用命令git branch --set-upstream-to <branch-name> origin/<branch-name>。
+
+* 标签管理
+  为了省略commit号带来的麻烦
+** 创建标签
+   在需要打标签的分支上：$ git tag <name>
+   对commit提交记录上的任意提交打标签： $ git tag <name> <tag name>
+   查看标签：$ git show 
+   查看某一标签信息： $ git show <tagname>
+** 操作标签
+   删除标签： $ git tag -d <tagname>
+   推送标签到远程： $ git push origin <tagname>（一次性推送所有标签： $ git push origin --tags）
+   如已经推送后想删除： 现在本地删除后再推送$ git push origin :refs/tags/<tag name>
+* 参加一个开源项目
+** 访问项目主页后点Fork
+   git clone git@github.com:<你的账户/XXXX.git>
+** 希望项目接受修改请求
+   在GitHub上发起一个pull request
+* 自定义git
+** 配置别名
+   $ git config --global alias.<别名> <原始名>
+   撤销修改：$ git config --global alias.unstage 'reset HEAD'
+   配置一个git last，让其显示最后一次提交信息：$ git config --global alias.last 'log -1'
+
+
+
+
