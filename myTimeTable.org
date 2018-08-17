@@ -32,5 +32,5 @@
 ** DONE Know about Pyhton
    CLOSED: [2018-08-13 Mon 19:37] SCHEDULED: <2018-08-13 Mon 18:00>
 * Academic Plan
-** TODO with HAN, DONGSOO MD for a PC visit at Primary Care, 4th FL - Washington Square
-   SCHEDULED: <2018-08-16 Thu 10:00>
+** DONE with HAN, DONGSOO MD for a PC visit at Primary Care, 4th FL - Washington Square
+   CLOSED: [2018-08-16 Thu 18:19] SCHEDULED: <2018-08-16 Thu 10:00>
