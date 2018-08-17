@@ -1,14 +1,15 @@
 * Daily
 ** TODO Having foods
 ** DONE Gym session
-   CLOSED: [2018-08-13 Mon 11:03] SCHEDULED: <2018-08-13 Mon 10:00>
-** TODO Drink 3L water
+   CLOSED: [2018-08-17 Fri 12:07] SCHEDULED: <2018-08-13 Mon 10:00>
+** DONE Drink 3L water
+   CLOSED: [2018-08-17 Fri 14:47]
 ** TODO &Arrangement 
 ** DONE Setup the TimeTable for the next day
    CLOSED: [2018-08-12 Sun 20:51] SCHEDULED: <2018-08-11 Sat 20:00>
 * Learning Schedule
 ** DONE C++
-   CLOSED: [2018-08-14 Tue 15:15] SCHEDULED: <2018-08-13 Mon 08:30>
+   CLOSED: [2018-08-17 Fri 14:47] SCHEDULED: <2018-08-13 Mon 08:30>
    :LOGBOOK:
    CLOCK: [2018-08-14 Tue 10:30]--[2018-08-14 Tue 10:55] =>  0:25
    CLOCK: [2018-08-14 Tue 09:35]--[2018-08-14 Tue 10:00] =>  0:25
@@ -16,21 +17,20 @@
    CLOCK: [2018-08-12 Sun 09:45]--[2018-08-12 Sun 10:10] =>  0:25
    CLOCK: [2018-08-12 Sun 09:11]--[2018-08-12 Sun 09:36] =>  0:25
    :END:
-** DONE Emacs/Spacemacs
-   CLOSED: [2018-08-13 Mon 14:28]
+** TODO Emacs/Spacemacs
    如何在spacemacs中插入图片
    C++ layer 完善
    SCHEDULED: <2018-08-13 Mon 12:00>
-** DONE Uyghur
-   CLOSED: [2018-08-12 Sun 20:57] SCHEDULED: <2018-08-11 Sat 20:00>
+** TODO Uyghur
+   SCHEDULED: <2018-08-11 Sat 20:00>
 ** DONE Git
-   CLOSED: [2018-08-13 Mon 14:55] SCHEDULED: <2018-08-13 Mon 14:00>
+   CLOSED: [2018-08-17 Fri 09:50] SCHEDULED: <2018-08-13 Mon 14:00>
 ** DONE Read<<Designing Audio Effector in C++>>
-   CLOSED: [2018-08-13 Mon 16:18] SCHEDULED: <2018-08-13 Mon 15:00>
-** DONE Know about C#
-   CLOSED: [2018-08-13 Mon 17:31] SCHEDULED: <2018-08-13 Mon 16:00>
-** DONE Know about Pyhton
-   CLOSED: [2018-08-13 Mon 19:37] SCHEDULED: <2018-08-13 Mon 18:00>
+   CLOSED: [2018-08-17 Fri 09:50] SCHEDULED: <2018-08-13 Mon 15:00>
+** TODO Know about C#
+   SCHEDULED: <2018-08-13 Mon 16:00>
+** TODO Know about Pyhton
+   SCHEDULED: <2018-08-13 Mon 18:00>
 * Academic Plan
 ** DONE with HAN, DONGSOO MD for a PC visit at Primary Care, 4th FL - Washington Square
-   CLOSED: [2018-08-16 Thu 18:19] SCHEDULED: <2018-08-16 Thu 10:00>
+   CLOSED: [2018-08-17 Fri 09:51] SCHEDULED: <2018-08-16 Thu 10:00>

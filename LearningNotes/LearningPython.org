@@ -130,3 +130,72 @@
 **** 删除key中的元素
      >>>set.remove(key)
 **** 两个set可以做数学意义上的交集、并集等操作
+* Python 函数
+** 调用函数：调用Python的函数，需要根据函数定义，传入正确的参数。
+*** 数据类型转换
+** 定义函数：
+   >>>def function():
+       (statement)
+       return;
+***  从一个文件中导入函数：
+    >>>from [fileName] import [functionName]
+*** 空函数
+    >>>def func():
+        pass
+    pass可作为占位符；
+** 函数的参数
+*** 可设定默认参数：>>>def power(x, n=2):
+    一是必选参数在前，默认参数在后，否则Python的解释器会报错
+    当函数有多个参数时，把变化大的参数放前面，变化小的参数放后面。变化小的参数就可以作为默认参数。定义默认参数要牢记一点：默认参数必须指向不变对象！
+*** 可变参数
+    >>>def calc(*numbers):
+        return
+****    *numbers接收到的是一个tuple，因此，函数代码完全不变。但是，调用该函数时，可以传入任意个参数，包括0个参数
+****    list或tuple前面也可以加一个*号，把list或tuple的元素变成可变参数传进去
+*** 关键字参数
+    关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict（它可以扩展函数的功能）
+    （试想你正在做一个用户注册的功能，除了用户名和年龄是必填项外，其他都是可选项，利用关键字参数来定义这个函数就能满足注册的需求）
+    person('Jack', 24, **keywords)
+*** 命名关键字参数
+    如果要限制关键字参数的名字，就可以用命名关键字参数，例如，只接收city和job作为关键字参数。这种方式定义的函数如下：
+    >>>def person(name, age, *, city, job):  //*后面的参数被视为命名关键字参数
+    >>>print(name, age, city, job)
+**** 如果函数定义中已经有了一个可变参数，后面跟着的命名关键字参数就不再需要一个特殊分隔符*了
+**** 命名关键字参数必须传入参数名（以区分位置参数）
+**** 命名关键字参数city具有默认值，调用时，可不传入city参数
+*** 参数组合
+    参数定义的顺序必须是：必选参数、
+                      默认参数（要用不可变对象）、
+                      可变参数（*接收的是一个tuple）、
+                      命名关键字参数（为了限制调用者可以传入的参数名，同时可以提供默认值）、
+                      关键字参数（**接收的是一个dict）
+*** 递归函数
+    如果一个函数在内部调用自身本身，这个函数就是递归函数。
+    使用递归函数需要注意防止栈溢出。每当进入一个函数调用，栈就会加一层栈帧，每当函数返回，栈就会减一层栈帧。
+    解决递归调用栈溢出的方法是通过尾递归优化（在函数返回的时候，调用自身本身，并且，return语句不能包含表达式。）
+* 高级特性
+** 切片（Slice）
+   List[Start index:End index]  //Similar to MatLab
+*** '字符串'也可看做为List
+** 迭代（Iteration）
+**** 使用for in 来遍历一个list
+     for key in dict
+     for value in dict
+     for key, value in dict.items()
+     for ch in 'string'
+**** 判断一个对象是否可迭代
+     >>> from collections import Iterable
+     >>> isinstance(OBJECT, Iterable)
+**** 对List实现下标循环
+     >>> for i, value in enumerate(['A', 'B', 'C']):
+     ...     print(i, value)
+** 列表生成器（List Comprehensions）
+   list(range(1, 11))   //>>> [x * x for x in range(1, 11)]
+                        //>>> [m + n for m in 'ABC' for n in 'XYZ']
+   写列表生成式时，把要生成的元素x * x放到前面，后面跟for循环，就可以把list创建出来
+   for循环后面还可以加上if判断
+** 生成器(Generator)
+   一边循环一边计算的机制，只要把一个列表生成式的[]改成()，就创建了一个generator
+*** next(generator)来得到下一个值，没有更多的元素时，抛出StopIteration的错误
+    如果一个函数定义中包含yield关键字，那么这个函数就不再是一个普通函数，而是一个generator
+    变成generator的函数，在每次调用next()的时候执行，遇到yield语句返回，再次执行时从上次返回的yield语句处继续执行。
